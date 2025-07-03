@@ -1,8 +1,8 @@
 package ads.poo;
 
-public class Cachorro extends Animal implements Terrestre, Mamifero{
+public class Macaco extends Animal implements Terrestre, Mamifero {
 
-    public Cachorro(String nome) {
+    public Macaco(String nome) {
         super(nome);
     }
 
@@ -13,16 +13,17 @@ public class Cachorro extends Animal implements Terrestre, Mamifero{
 
     @Override
     public String amamentar() {
-        return "Cachorro " + nome + " está amamentando";
+        return "Macaco " + nome + " está amamentando";
     }
 
     @Override
     public String correr() {
-        return "Cachorro " + nome + " está correndo";
+        return "Macaco " + nome + " está correndo";
     }
 
     @Override
     public String toString() {
-        return nome + " é um cachorro";
+        return nome + " é um macaco";
     }
+    
 }

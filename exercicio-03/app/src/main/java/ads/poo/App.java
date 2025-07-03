@@ -9,10 +9,22 @@ public class App {
         Avestruz av = new Avestruz("Antonio");
         Baleia b = new Baleia("Jubileu");
         Cachorro c = new Cachorro("Erik");
+        Leao l = new Leao("Simba");
+        Lobo lo = new Lobo("Alfa");
+        Macaco m = new Macaco("George");
+        Morcego mo = new Morcego("Batman");
+        Pinguim p = new Pinguim("Pingu");
+        Ornitorrinco o = new Ornitorrinco("Perry");
 
         System.out.println(a.habilidade());
         System.out.println(av.habilidade());
         System.out.println(b.habilidade());
         System.out.println(c.habilidade());
+        System.out.println(l.habilidade());
+        System.out.println(lo.habilidade());
+        System.out.println(m.habilidade());
+        System.out.println(mo.habilidade());
+        System.out.println(p.habilidade());
+        System.out.println(o.habilidade());
     }
 }

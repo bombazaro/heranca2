@@ -45,7 +45,7 @@ classDiagram
     class Mamifero {
         <<interface>>
         +amamentar() String
- }
+    }
     
     class Terrestre {
         <<interface>>
